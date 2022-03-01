@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Valores (exponencial)</title>
+		<link rel="stylesheet" type="text/css" href="efectos02.css">
+		<script type="text/javascript" src="js_prog_14.js"></script>
+	</head>
+	<body><center>
+		<p class="titulo24">Valores (exponencial)</p>
+		<table border="3" width="60%">
+			<form name="f_ciclos">
+				<tr>
+					<td><p>Indica el primer valor (X), tiene que estar entre 1 y 10 (incluyénolos)</p></td>
+					<td align="center"><input type="number" name="v1" class="campo" onclick="campo_x()"></td>
+				</tr>
+				<tr>
+					<td><p>Indica el segundo valor (Y), tiene que estar entre 1 y 5 (incluyénolos)</p></td>
+					<td align="center"><input type="number" name="v2" class="campo" onclick="campo_y()"></td>
+				</tr>
+				<tr>
+					<td><p>El valor de X elevado a la Y es:</p></td>
+					<td align="center"><input type="text" name="res" class="campo" readonly></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2"><input type="button" name="b_ejecutar" class="boton" value="Ejecutar" onclick="ejecutar()"><input type="reset" name="b_reset" class="boton" value="Borrar" style="background: red;" onclick="campos_xy()"></td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
